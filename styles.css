@@ -1,0 +1,464 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#header{
+  height:100vh;
+  background-image: url(images/background.png);
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  margin: 0 6%;
+}
+.logo{
+  margin-top: 3%;
+  width: 100px;
+}
+.header-text{
+  max-width: 30%;
+  margin: 10% 0 0;
+}
+h1{
+  font-size: 30px;
+}
+p{
+  font-size: 15px;
+  line-height: 18px;
+  color: #777;
+}
+.square{
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+  background: #f67c92;
+  margin: 5% 0;
+}
+.common-btn{
+  padding: 4% 8%;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  border-radius: 5%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-text button{
+  margin:7% 0 0 0;
+}
+.line-1{
+  width:15px;
+  height: 15px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-2{
+  width:80px;
+  height: 1.5px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-3{
+  width:60px;
+  height: 1.5px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line{
+  line-height: 8px;
+  margin-top:10%;
+}
+
+/***** Side Nav ******/
+
+#side-nav{
+  padding-top: 50px;
+  width: 15%;
+  height:100vh;
+  position:fixed;
+  right:0;
+  top:0;
+  background: #f67c92;
+  z-index: 2;
+  display:none;
+}
+nav ul li{
+  list-style: none;
+  margin: 30% 15%;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:#fff;
+}
+.menu-btn{
+  width: 50px;
+  position: fixed;
+  right: 3%;
+  top: 5%;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid #777;
+  border-radius: 7%;
+}
+
+/* About section */
+
+#about{
+  padding: 10% 0;
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-left-col img{
+  width: 100%;
+}
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text{
+  max-width: 60%;
+  margin-right: 15%;
+  display: inline-block;
+}
+.about-text h2{
+  margin: 5% 0 4%;
+  font-size: 24px;
+  font-style: italic;
+}
+.about-text h3{
+  font-size: 18px;
+  font-style: italic;
+  color: #797979;
+}
+
+/* features section */
+#features{
+  padding: 10% 0;
+}
+.feature-row{
+  width:80%;
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.feature-col{
+  flex-basis: 25%;
+  text-align: center;
+}
+.feature-col img{
+  width:40%
+}
+.feature-col h4{
+  margin-bottom: 7%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.feature-btn{
+  margin: 7% auto 0;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.feature-btn .line{
+  display: inline-block;
+  text-align: right;
+  margin:0 5% 0 0;
+}
+.feature-btn .common-btn{
+  padding: 1% 2%;
+}
+
+/* course section */
+
+#courses{
+  padding:10% 0;
+}
+.course-row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.course-right-col{
+  flex-basis:50%;
+}
+.course-right-col img{
+  width:100%;
+}
+.course-left-col{
+  flex-basis:50%;
+}
+.couse-text{
+  max-width: 60%;
+}
+.course-btn{
+  padding: 2% 2%;
+  margin: 9% 0 5% 0;
+}
+
+/*     Offer Section    */
+#offer{
+  padding: 10% 0;
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+}
+#offer button{
+  margin: 5% 0;
+  padding: 2% 3%;
+}
+
+/* contact section */
+#contact{
+  padding: 10% 0;
+}
+.contact-row{
+  display: flex;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.contact-left-col ,.contact-right-col{
+  flex-basis: 50%;
+}
+.contact-right-col img{
+  width:100%;
+}
+form{
+  max-width:70%;
+  margin: 10% 0;
+}
+form input{
+  width:100%;
+  padding: 3% 2%;
+  margin-bottom: 2%;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 2px solid #fab3c4
+}
+.btn-box{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+.btn-box button{
+  flex-basis: 48%;
+  padding:3% 4%;
+}
+
+/* Footer section */
+
+#footer{
+  padding: 5% 0 3%;
+}
+hr{
+  width:100%;
+  border: 0;
+  border-top: 1px solid #f67c92;
+
+}
+.footer-row{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left-col{
+  flex-basis: 50%;
+  margin-top: 4%;
+}
+.footer-right-col{
+  flex-basis: 35%;
+}
+.footer-links{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.link-title h4{
+  color: #fab3c4;
+  margin: 5% 0;
+}
+.link-title small{
+  font-size: 10px;
+  color: #777;
+}
+.footer-info{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.copyright-text{
+  flex-basis: 40%;
+}
+.footer-logo{
+  flex-basis: 40%;
+  text-align: justify;
+}
+.footer-logo img{
+  width:60%;
+  margin-bottom: 5%;
+}
+.footer-logo button{
+  width:80%;
+}
+
+/* SSocial Icons */
+
+.social-icons{
+  width: 50px;
+  position:fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index:1;
+}
+.social-icons img{
+  display: block;
+  width: 20px;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 650px){
+#header{
+  background-image: none;
+
+}
+.container{
+    margin: 0 15%;
+}
+.logo{
+    margin-top: 9%;
+    width: 70px;
+}
+.header-text{
+    max-width:100%;
+    margin: 28% 0 0 0;
+}
+h1{
+    font-size: 25px;
+}
+
+
+.menu-btn{
+  width: 40px;
+  right: 6%;
+  top: 4%;
+}
+
+
+.social-icons img{
+  width: 14px;
+  margin: 15px auto;
+}
+
+
+#about{
+  padding:0 0 10% 0;
+}
+.about-left-col,.about-right-col{
+  flex-basis: 100%;
+}
+.about-text{
+  max-width: 100%;
+  margin:50px 50px 0; ;
+  display: inline-block;
+}
+#about h2{
+  margin: 50px 0 10px;
+  font-size: 20px;
+}
+#about h3{
+  font-size: 15px;
+}
+
+.feature-col{
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+#features{
+  padding:15% 0;
+}
+
+
+
+#courses{
+  padding:15% 0;
+}
+.course-left-col{
+  flex-basis:100%;
+}
+.course-right-col{
+  flex-basis:100%;
+  margin-top: 70px;
+}
+
+
+#offer{
+  padding: 15% 0;
+}
+#offer h1{
+  font-size: 20px;
+}
+#offer p{
+  font-size: 13px;
+}
+
+
+#contact{
+  padding: 15% 0;
+}
+.contact-left-col ,.contact-right-col{
+  flex-basis: 100%;
+}
+.contact-right-col{
+  margin-top: 50px;
+}
+form{
+  max-width:100%;
+  margin: 15% 0;
+}
+.btn-box button{
+  flex-basis: 48%;
+  padding:1% 2%;
+}
+
+
+
+#footer{
+  margin:50px auto 30px;
+}
+.footer-left-col{
+  flex-basis: 100%;
+  margin-top: 40px;
+}
+.footer-right-col{
+  flex-basis: 100%;
+  margin-top: 15%;
+}
+.link-title{
+  flex-basis:50%;
+  margin-bottom: 30px;
+}
+
+#side-nav{
+  padding-top: 60px;
+  width: 40%;
+
+}
+}
